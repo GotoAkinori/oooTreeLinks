@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" width="8" height="8">
+    <defs>
+        <style>
+            .shape {
+                fill: #FFF;
+                stroke: #888;
+                stroke-linejoin: round;
+            }
+        </style>
+    </defs>
+    <polygon class="shape" points="1 2 7 2 4 6" />
+</svg>

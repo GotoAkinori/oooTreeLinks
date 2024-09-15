@@ -1,0 +1,67 @@
+html {
+    --open: #00C;
+    --closed: #808;
+    --table-brder-color: #444;
+    --table-brder-style: solid;
+    --table-brder-width: 2px;
+    --indent-width: 10px;
+    --indent: 0;
+}
+
+svg foreignObject>div {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+svg foreignObject>div>table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+svg foreignObject>div>table>tr>td {
+    border-color: var(--table-brder-color);
+    border-style: var(--table-brder-style);
+    border-width: var(--table-brder-width);
+}
+
+svg foreignObject>div>table>tr>td.tree-col {
+    padding-left: calc(10px + var(--indent) * var(--indent-width));
+    padding-right: 10px;
+}
+
+svg foreignObject>div>table>tr>td.left,
+svg foreignObject>div>table>tr>td.right {
+    width: 15px;
+}
+
+svg foreignObject>div>table>tr>td {
+    align-items: center;
+}
+
+svg foreignObject>div>table>tr>td>span>img,
+svg foreignObject>div>table>tr>td>img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+svg foreignObject>div>table>tr>td>img:hover {
+    background-color: #8884;
+}
+
+svg foreignObject>div>table>tr>td.left.open {
+    background-color: var(--open);
+}
+
+svg foreignObject>div>table>tr>td.left.closed {
+    background-color: var(--closed);
+}
+
+svg foreignObject>div>table>tr>td.right.open {
+    background-color: var(--open);
+}
+
+svg foreignObject>div>table>tr>td.right.closed {
+    background-color: var(--closed);
+}

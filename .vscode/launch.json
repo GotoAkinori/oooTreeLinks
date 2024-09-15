@@ -1,0 +1,43 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "HTML-dom",
+            "url": "http://localhost:5500/test/html/dom.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "HTML-treelink",
+            "url": "http://localhost:5500/test/html/treelink.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "HTML-tree",
+            "url": "http://localhost:5500/test/html/tree.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "HTML-event",
+            "url": "http://localhost:5500/test/html/event.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "HTML-object",
+            "url": "http://localhost:5500/test/html/object.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

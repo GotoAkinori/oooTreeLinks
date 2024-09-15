@@ -1,0 +1,26 @@
+{
+  "name": "oootreelinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GotoAkinori/oooTreeLinks.git"
+  },
+  "keywords": [
+    "Tree",
+    "Link"
+  ],
+  "author": "Goto Akinori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GotoAkinori/oooTreeLinks/issues"
+  },
+  "homepage": "https://github.com/GotoAkinori/oooTreeLinks#readme"
+}
