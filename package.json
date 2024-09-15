@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/GotoAkinori/oooTreeLinks/issues"
   },
-  "homepage": "https://github.com/GotoAkinori/oooTreeLinks#readme"
+  "homepage": "https://github.com/GotoAkinori/oooTreeLinks#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "gulp": "^5.0.0"
+  }
 }
