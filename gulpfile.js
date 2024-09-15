@@ -5,7 +5,9 @@ async function distribute() {
         src('./icon/*')
             .pipe(dest('./dist/icon')),
         src('./js/oootreelink.js')
-            .pipe(dest('./dist/js'))
+            .pipe(dest('./dist/js')),
+        src('./css/*')
+            .pipe(dest('./dist/css'))
     ]);
 }
 
